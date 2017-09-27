@@ -1,3 +1,8 @@
 <header>
-	<h1 class="sitetitle">{{ .Title }}</h1>
+	{{ if eq .Title .Site.Title }}
+		<h1 class="sitetitle">{{ .Title }}</h1>
+	{{else}}
+		<h1 class="sitetitle">{{ .Site.Title }}</h1>
+		<h2 class="title">{{ .Title }}</h2>
+	{{ end }}
 </header>
