@@ -10,6 +10,11 @@ README.md file  were shamelessly stolen from [After Dark](https://github.com/com
 <br>
 However, no CSS or anything visual was.
 <br>
+<br>
+for the default theme variant, I'm currently borrowing most of the CSS from [The entr page](http://entrproject.org/)
+<br>
+Many thanks to [Eric Radman](http://eradman.com) for the inspiration and simple CSS
+<br>
 
 
 example `config.toml` entries:

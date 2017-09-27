@@ -6,8 +6,8 @@
 	<article itemscope itemtype="http://schema.org/BlogPosting">
 		{{ template "_internal/schema.html" . }}
 		<header>
-			<h1 itemprop="headline">{{ .Title }}</h1>
-			<p class="muted">
+			<h2 class="headline">{{ .Title }}</h2>
+			<p class="postmeta">
 				{{ partial "post/meta.html" . }}
 			</p>
 		</header>

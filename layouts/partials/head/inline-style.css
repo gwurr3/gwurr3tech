@@ -21,6 +21,11 @@ h1, h2, h3, h4, h5 {
 	text-shadow: 1px 2px 0px #476871;
 }
 
+h2.headline a {
+	text-decoration: none;
+	color: #e3d7bf;
+}
+
 li, p {
 	line-height: 125%;
 	-webkit-hyphens: auto;
@@ -53,7 +58,7 @@ img.screenshot {
 }
 
 
-div.date {
+p.postmeta {
 	font-size: 0.9em;
 	color: #5d6d68;
 	line-height: 2.2;

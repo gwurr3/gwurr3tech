@@ -1,10 +1,10 @@
 <article itemscope itemtype="http://schema.org/CreativeWork">
 	<header>
-		<h2 itemprop="name">
+		<h2 class="headline">
 			<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 		</h2>
 		{{ if eq .Type "post" }}
-			<p class="muted">{{ partial "post/meta.html" . }}</p>
+			<p class="postmeta">{{ partial "post/meta.html" . }}</p>
 		{{ end }}
 	</header>
 	{{ if .Description }}
