@@ -1,0 +1,22 @@
+<head>
+	{{ .Hugo.Generator }}
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>404 Error | {{ .Site.Title }}</title>
+	<meta name="robots" content="noindex">
+	{{ partial "meta/tab-color.html" . }}
+	{{ if eq .Kind "home" }}
+		{{ partial "head/anal.html" . }}
+	{{ end }}
+	{{ template "_internal/google_analytics_async.html" . }}
+	{{ partial "head/favicon.html" . }}
+	{{ partial "global-styles.html" . }}
+</head>
+{{ $theme_variant := .Site.Params.theme_variant | default "default" }}
+<body class="{{ $theme_variant }} main container">
+	  <header>
+		<a title="Page Not Found" href="{{ .Site.BaseURL }}">
+			<h1 data-letters="404"><span>404</span></h1>
+		</a>
+	  </header>
+</body>
