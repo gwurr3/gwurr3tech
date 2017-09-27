@@ -5,8 +5,10 @@ it's a work in progress...
 <br>
 <br>
 
-The basic file skeleton, templates, and misc features were shamelessy stolen from [After Dark](https://github.com/comfusion/after-dark)
+The basic file skeleton, templates, misc features, and a good chunk of this README.md file  were shamelessly stolen from [After Dark](https://github.com/comfusion/after-dark)
+<br>
 However, no CSS or anything visual was.
+<br>
 
 
 example `config.toml` entries:
@@ -35,6 +37,8 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
 	] # Suggested, controls default Open Graph images
 	theme_variant = "" # Optional, for use to overriding default theme
 ```
+<br>
+creating first post: `hugo new post/starry-night.md`
 
 
 ## Customizing
@@ -338,7 +342,19 @@ Additional theme-provided shortcodes at your disposal:
 ## License
 
 Copyright © 2016-2017 Josh Habdas <josh@habd.as>
+<br>
 Copyright © 2017 Glenn Wurr III <glenn@wurr.net>
 <br> DWTFYWTPLv2 and ISC License
 
-[lazysizes]: https://github.com/aFarkas/lazysizes
+<br>
+<br>
+Proudly includes Javascript from [Lazysizes](https://github.com/aFarkas/lazysizes/blob/gh-pages/LICENSE) `MIT License` <br>
+Copyright (c) 2015 Alexander Farkas
+<br>
+Proudly includes Javascript from [Smoothscroll](https://github.com/iamdustan/smoothscroll/blob/master/LICENSE) `MIT License` <br>
+Copyright (c) 2016 Dustan Kasten, Jeremias Menichelli
+<br>
+Proudly includes Javascript from [libbpg](https://bellard.org/bpg/) `LGPL/BSD License` <br>
+Copyright (c) 2016 Fabrice Bellard
+<br>
+
