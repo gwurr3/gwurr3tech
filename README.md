@@ -5,7 +5,8 @@ it's a work in progress...
 <br>
 <br>
 
-The basic file skeleton, templates, misc features, and a good chunk of this README.md file  were shamelessly stolen from [After Dark](https://github.com/comfusion/after-dark)
+The basic file skeleton, templates, misc features, and a good chunk of this<br>
+README.md file  were shamelessly stolen from [After Dark](https://github.com/comfusion/after-dark)
 <br>
 However, no CSS or anything visual was.
 <br>
@@ -38,7 +39,11 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
 	theme_variant = "" # Optional, for use to overriding default theme
 ```
 <br>
-creating first post: `hugo new post/starry-night.md`
+
+create first post like so:
+```
+hugo new post/example-post.md
+```
 
 
 ## Customizing
@@ -346,15 +351,21 @@ Copyright © 2016-2017 Josh Habdas <josh@habd.as>
 Copyright © 2017 Glenn Wurr III <glenn@wurr.net>
 <br> DWTFYWTPLv2 and ISC License
 
+[Shortcodes](https://gohugo.io/extras/shortcodes)
+
+## Bundled Software
+- Proudly includes Javascript from [Lazysizes](https://github.com/aFarkas/lazysizes/blob/gh-pages/LICENSE) - MIT License 
+- - Copyright (c) 2015 Alexander Farkas
 <br>
 <br>
-Proudly includes Javascript from [Lazysizes](https://github.com/aFarkas/lazysizes/blob/gh-pages/LICENSE) `MIT License` <br>
-Copyright (c) 2015 Alexander Farkas
+
+- Proudly includes Javascript from [Smoothscroll](https://github.com/iamdustan/smoothscroll/blob/master/LICENSE) - MIT License
+- - Copyright (c) 2016 Dustan Kasten, Jeremias Menichelli
 <br>
-Proudly includes Javascript from [Smoothscroll](https://github.com/iamdustan/smoothscroll/blob/master/LICENSE) `MIT License` <br>
-Copyright (c) 2016 Dustan Kasten, Jeremias Menichelli
 <br>
-Proudly includes Javascript from [libbpg](https://bellard.org/bpg/) `LGPL/BSD License` <br>
-Copyright (c) 2016 Fabrice Bellard
+
+- Proudly includes Javascript from [libbpg](https://bellard.org/bpg) - LGPL/BSD License
+- - Copyright (c) 2016 Fabrice Bellard
+<br>
 <br>
 
