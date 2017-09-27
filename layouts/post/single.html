@@ -2,6 +2,7 @@
 	{{ partial "menu.html" . }}
 {{ end }}
 {{ define "main" }}
+	{{ partial "title.html" . }}
 	<article itemscope itemtype="http://schema.org/BlogPosting">
 		{{ template "_internal/schema.html" . }}
 		<header>

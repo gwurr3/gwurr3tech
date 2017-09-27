@@ -5,9 +5,7 @@
 	{{ partial "menu.html" . }}
 {{ end }}
 {{ define "main" }}
-	<header>
-		<h1>{{ .Title }}</h1>
-	</header>
+	{{ partial "title.html" . }}
 	{{ .Content }}
 {{ end }}
 {{ define "footer" }}
