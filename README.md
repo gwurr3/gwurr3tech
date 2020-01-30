@@ -1,5 +1,5 @@
 # gwurr3tech
-hugo theme for tech-related blog/site.
+hugo theme for my blog, http://blog.gwurr3.me/
 <br>
 it's a work in progress...
 <br>

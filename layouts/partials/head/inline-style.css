@@ -105,6 +105,11 @@ code {
 	margin-bottom: 15px;
 }
 
+blockquote {
+	background-color: #232927;
+	white-space: nowrap;
+}
+
 p.caption {
 	margin-top: 1em;
 	font-weight: normal;
