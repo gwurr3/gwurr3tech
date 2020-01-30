@@ -21,6 +21,12 @@ h1, h2, h3, h4, h5 {
 	text-shadow: 1px 2px 0px #476871;
 }
 
+h1.sitetitle {
+	text-shadow: 2px 3px 0px #476871;
+	font-size: 60pt;
+	line-height: 0.9;
+}
+
 h2.headline a {
 	text-decoration: none;
 	color: #e3d7bf;
