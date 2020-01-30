@@ -6,7 +6,7 @@
 {{ end }}
 {{ define "main" }}
 	{{ partial "title.html" . }}
-	{{ range (.Paginate (where .Data.Pages "Type" "post")).Pages }}
+	{{ range .Paginator.Pages }}
 		{{ partial "page-summary.html" . }}
 	{{ end }}
 {{ end }}

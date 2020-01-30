@@ -2,7 +2,7 @@ name = "gwurr3tech"
 license = "ISC"
 licenselink = "https://raw.githubusercontent.com/gwurr3/gwurr3tech/master/LICENSE"
 description = "gwurr3's basic tech blog theme"
-homepage = "http://gwurr3.me/"
+homepage = "http://blog.gwurr3.me/"
 tags = [
 	"minimalist",
 	"technical",
@@ -17,5 +17,5 @@ min_version = "0.27.1"
 
 [author]
 	name = "gwurr3"
-	homepage = "http://gwurr3.me/"
+	homepage = "http://blog.gwurr3.me/"
 
