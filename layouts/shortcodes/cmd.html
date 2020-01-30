@@ -1,1 +1,5 @@
-<pre><span class="Prompt">$&nbsp;</span>{{ .Inner }}</pre>
+<pre>
+{{ range $counter, $line := split .Inner "\n" }}
+{{ if lt $counter 1 }}<span class="Prompt">$&nbsp;</span>{{ printf "%s" $line }}{{ else }}<span class="Prompt">&gt&nbsp;</span>{{ printf "%s" $line }}{{ end }}
+{{ end }}
+</pre>
