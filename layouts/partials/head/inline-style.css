@@ -23,7 +23,9 @@ h1, h2, h3, h4, h5 {
 
 h1.sitetitle {
 	text-shadow: 2px 3px 0px #476871;
-	font-size: 60pt;
+	font-size: 45pt;
+	padding: 0;
+	margin: 0;
 	line-height: 0.9;
 }
 
@@ -53,16 +55,6 @@ img.screenshot {
 	border: 1px solid #476871;
 	margin-top: 10px;
 }
-
-
-#sitetitle {
-	text-shadow: 2px 3px 0px #476871;
-	padding: 0;
-	margin: 0;
-	font-size: 60pt;
-	line-height: 0.9;
-}
-
 
 p.postmeta {
 	font-size: 0.9em;
