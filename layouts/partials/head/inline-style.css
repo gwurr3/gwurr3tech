@@ -34,6 +34,11 @@ h2.headline a {
 	color: #e3d7bf;
 }
 
+nav.mainmenu {
+	padding: 20px;
+	margin-top: 10px;
+}
+
 li, p {
 	line-height: 125%;
 	-webkit-hyphens: auto;
