@@ -1,8 +1,10 @@
 <header>
 	{{ if eq .Title .Site.Title }}
 		<h1 class="sitetitle">{{ .Title }}</h1>
+		{{ partial "menu.html" . }}
 	{{else}}
 		<h1 class="sitetitle">{{ .Site.Title }}</h1>
+		{{ partial "menu.html" . }}
 		<h2 class="title">{{ .Title }}</h2>
 	{{ end }}
 </header>
