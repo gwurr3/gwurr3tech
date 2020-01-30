@@ -2,10 +2,10 @@
 	{{ .Site.Title }}
 {{- end }}
 {{ define "header" }}
+	{{ partial "title.html" . }}
 	{{ partial "menu.html" . }}
 {{ end }}
 {{ define "main" }}
-	{{ partial "title.html" . }}
 	{{ range .Paginator.Pages }}
 		{{ partial "page-summary.html" . }}
 	{{ end }}
